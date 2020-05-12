@@ -1,0 +1,139 @@
+
+
+body{
+    font-family:"Hiragino Sans";
+    background-color: green;}
+
+p{
+    font: W4 20px/34px Hiragino Sans;
+}
+
+.date{
+    position: relative;
+    top: 807px;
+    margin: auto;
+    width: 980px;
+    height: 165px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.date ul {
+    padding: 25px;
+    margin-left: 3em;
+    
+}
+
+.date ul li{
+    display: inline-block;
+    text-align: left;
+    margin-right: 13em;
+}
+
+.date ul li h1{
+    font-family: "CP_Revenge";  
+    letter-spacing: 0px;
+}
+
+
+.discription_1{
+    position: absolute;
+    top: 1127px;
+    left: 675px;
+    width: 441px;
+    height: 275px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.about_design{
+    position: absolute;
+    top: 1127px;
+    left: 146px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.box h1{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.box p{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.medical_field{
+    position: absolute;
+    top: 1406px;
+    left: 146px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.energy_field{
+    position: absolute;
+    top: 1406px;
+    left: 646px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.industry_field{
+    position: absolute;
+    top: 1686px;
+    left: 146px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.life_support_field{
+    position: absolute;
+    top: 1686px;
+    left: 646px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.discription_2{
+    position: absolute;
+    top: 2109px;
+    left: 164px;
+    width: 441px;
+    height: 117px;
+    text-align: left;
+    font: W4 20px/41px Hiragino Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.vision{
+    position: absolute;
+    top: 1966px;
+    left: 646px;
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
