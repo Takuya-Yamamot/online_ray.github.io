@@ -161,9 +161,9 @@
       <dl>
         <dt><span>名前</span></dt>
         <dd>
-          姓
+          姓　
           <input type="text" name="fam_name" class="name" required>
-          名
+          名　
           <input type="text" name="first_name" class="name" required>
         </dd>
         <dt><span>ふりがな</span></dt>
@@ -182,6 +182,11 @@
           <input type="radio" name="contact" value="others">
           その他
         </dd>
+        <dt><span>年齢</span></dt>
+        <dd>
+          <input type="text" name="age" class="age" required>
+          才
+        </dd>
         <dt>電話番号</dt>
         <dd>
           <input type="tel" name="tel" class="tel">
@@ -196,22 +201,26 @@
         </dd>
         <dt><span>学校名</span></dt>
         <dd>
-          <input type="text" name="school_name" class="name" required>
+          <input type="text" name="school_name" class="school" required>
         </dd>
         <dt><span>学部・学科・専攻</span></dt>
         <dd>
-          <input type="text" name="school_name" class="name" required>
+          <input type="text" name="school_name" class="school" required>
         </dd>
         <dt>お問い合わせなど</dt>
         <dd>
           <textarea name="message" class="message"></textarea>
         </dd>
       </dl>
-      <ul>
-        <li> 個人情報保護方針について</li>
-        <li><input type="radio" name="contact" value="male">個人情報保護方針に同意します</li>
-      </ul>
-      <button type="submit">確認</button>
+      <div class="info">
+        <ul>
+          <li>　個人情報保護方針について</li>
+          <li><input type="radio" name="contact" value="male">個人情報保護方針に同意します</li>
+        </ul>
+    </div>
+      <button type="submit" class="check">
+        <h2>確認＜</h2>
+      </button>
     </form>
   
 

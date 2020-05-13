@@ -7,7 +7,7 @@ body{
 
 h1{
     font-family: "CP_Revenge";  
-    font-size: 48px/55px;
+    font-size: 48px;
 }
 
 h2{
@@ -42,7 +42,7 @@ p{
 .date ul li{
     display: inline-block;
     text-align: left;
-    margin-right: 12em;
+    margin-right: 7em;
 }
 
 .date ul li h1{
@@ -80,39 +80,15 @@ p{
     opacity: 1;
 }
 
-
-
-/*
-.discription_1{
-    position: absolute;
-    top: 1127px;
-
-    width: 441px;
-    height: 275px;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.about_design{
-    position: absolute;
-    top: 1127px;
-    
-    width: 480px;
-    height: 260px;
-    background: #D1D1D2 0% 0% no-repeat padding-box;
-    border-radius: 27px;
-    opacity: 1;
-}
-*/
 .box h1{
+    font-size: 29px;
     margin-top: 25px;
     margin-left: 50px;
 }
 
 .box p{
     text-align: center;
+    align-items: baseline;
     margin-top: 130px;
 }
 
@@ -135,7 +111,6 @@ p{
 }
 
 .industry_field{
-
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -153,8 +128,7 @@ p{
 }
 
 .discription_2{
-
-    width: 441px;
+    width: 480px;
     height: 117px;
     text-align: left;
     font: W4 20px/41px Hiragino Sans;
@@ -327,9 +301,93 @@ form dl dt {
     padding: 10px 0;
     float: left;
     clear: both;
+    margin-right: 95px;
   }
 
   form dl dd{
-      width: 700px;
+      width: 1000px;
       padding: 10px 0;
   }
+
+  form .name{
+    width: 268px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  form .age{
+    width: 153px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  form .tel{
+    width: 153px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  form .email{
+    width: 669px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  form .school{
+    width: 669px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  form .message{
+    width: 669px;
+    height: 114px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+
+  input[type=radio] {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}
+
+form ul{
+    list-style: none;
+}
+
+.info{
+    position: relative;
+    top: 24px;
+    left: 300px;
+    width: 600px;
+}
+
+.check{
+    position: relative;
+    left: 348px;
+    top: 13px;
+    width: 383px;
+    height: 77px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+}
+
+.check h2{
+    font-size: 32px;
+    color: white;
+    font-family: "HiraMinPro-W6-83pv-RKSJ-H";
+    margin: 10px;
+}
