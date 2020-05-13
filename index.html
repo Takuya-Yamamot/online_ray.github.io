@@ -157,6 +157,63 @@
       <h1>エントリー・お問い合わせフォーム</h1>
     </div>
 
+    <form>
+      <dl>
+        <dt><span>名前</span></dt>
+        <dd>
+          姓
+          <input type="text" name="fam_name" class="name" required>
+          名
+          <input type="text" name="first_name" class="name" required>
+        </dd>
+        <dt><span>ふりがな</span></dt>
+        <dd>
+          せい
+          <input type="text" name="fam_name_kana" class="name" required>
+          めい
+          <input type="text" name="first_name_kana" class="name" required>
+        </dd>
+        <dt>性別</dt>
+        <dd>
+          <input type="radio" name="contact" value="male">
+          男性
+          <input type="radio" name="contact" value="female">
+          女性
+          <input type="radio" name="contact" value="others">
+          その他
+        </dd>
+        <dt>電話番号</dt>
+        <dd>
+          <input type="tel" name="tel" class="tel">
+          -
+          <input type="tel" name="tel" class="tel">
+          -
+          <input type="tel" name="tel" class="tel">
+        </dd>
+        <dt><span>E-mail</span></dt>
+        <dd>
+          <input type="email" name="email" class="email" required>
+        </dd>
+        <dt><span>学校名</span></dt>
+        <dd>
+          <input type="text" name="school_name" class="name" required>
+        </dd>
+        <dt><span>学部・学科・専攻</span></dt>
+        <dd>
+          <input type="text" name="school_name" class="name" required>
+        </dd>
+        <dt>お問い合わせなど</dt>
+        <dd>
+          <textarea name="message" class="message"></textarea>
+        </dd>
+      </dl>
+      <ul>
+        <li> 個人情報保護方針について</li>
+        <li><input type="radio" name="contact" value="male">個人情報保護方針に同意します</li>
+      </ul>
+      <button type="submit">確認</button>
+    </form>
+  
 
   </div>
 

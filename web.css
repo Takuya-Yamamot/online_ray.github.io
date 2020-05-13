@@ -42,7 +42,7 @@ p{
 .date ul li{
     display: inline-block;
     text-align: left;
-    margin-right: 13em;
+    margin-right: 12em;
 }
 
 .date ul li h1{
@@ -310,4 +310,13 @@ height: 230px;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
+}
+
+form{
+    position: absolute;
+    top: 4846px;
+    left: 138px;
+    width: 479px;
+    height: 124px;
+
 }
