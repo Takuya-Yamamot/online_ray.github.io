@@ -3,7 +3,17 @@
 body{
     font-family:"Hiragino Sans";
     background-color: yellow;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 1024px;
 }
+
+.wrap {
+    width:100%;
+	overflow: hidden;
+}
+
 
 h1{
     font-family: "CP_Revenge";  
@@ -19,18 +29,64 @@ h3{
 }
 
 p{
-    font: W4 20px/34px Hiragino Sans;
+    font-size: 20px;
 }
 
-.date{
+/*background*/
+
+
+
+/*background*/
+
+/*yellow1*/
+
+.enjoy{
+    writing-mode: vertical-rl;
+    margin: auto;
+    margin-top: 120px;
+    z-index: 2;
+}
+
+.enjoy h1{
+    font-size: 85px;
+    color: #238F7A;
+}
+
+.setumei{
     position: relative;
-    top: 807px;
+    margin-top: -30;
+    margin-left: 140px;
+}
+
+.setumei h1{
+    color: #238F7A;
+}
+/*yellowここまで*/
+/*blue*/
+
+.blue{
+    position: absolute;
+    top: 914px;
+    left: 0.1162109375px;
+    width: 100%;
+    height: 1628px;
+    background: #3F82AB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: -1;
+    background-size: cover;
+}
+
+
+  .date{
+    position: relative;
+    top: -110px;
     margin: auto;
     width: 980px;
     height: 165px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
+    z-index: 5;
 }
 
 .date ul {
@@ -47,19 +103,34 @@ p{
 
 .date ul li h1{
     font-family: "CP_Revenge";  
-  
     margin: 0;
     letter-spacing: 0px;
 }
 
-/*blue*/
+.indetail{
+    position: relative;
+    top: -30px;
+    margin: auto;
+    width: 317px;
+    height: 37px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.indetail h3{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
 .container{
     position: relative;
-    top: 944px;
+    top: 143px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 15px;
+    max-width: 100%;
 }
 
 .about_design{
@@ -129,12 +200,13 @@ p{
 
 .discription_2{
     width: 480px;
-    height: 117px;
+    height: 260px;
     text-align: left;
     font: W4 20px/41px Hiragino Sans;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    vertical-align: bottom;
 }
 
 .vision{
@@ -149,21 +221,30 @@ p{
 /*blueここまで*/
 /*redここから*/
 .red{
-
+    position: absolute;
+    top: 2342px;
+    left: 0.1162109375px;
+    width: 100%;
+    height: 1511px;
+    background: #D78AA5 0% 0% no-repeat padding-box;
+    background-size: cover;
+    z-index: -1;
+    
 }
 
 .about{
-    position: absolute;
-    top: 2376px;
-    left: 146px;
+    position: relative;
+    top: 135px;
+    margin-left: 140px;
     width: 984px;
     height: 337px;
+    z-index: 2;
 }
 
 .career_design{
-    position: absolute;
-    top: 2626px;
-    left: 145px;
+    position: relative;
+    top: 30px;
+    margin: auto;
     width: 984px;
     height: 390px;
 }
@@ -177,9 +258,9 @@ p{
 }
 
 .ray_relation{
-    position: absolute;
-    top: 3084px;
-    left: 145px;
+    position: relative;
+    top: 30px;
+    margin: auto;
     width: 988px;
     height: 600px;
 }
@@ -193,19 +274,32 @@ p{
 }
 
 /*redここまで*/
+/*yello2*/
 
-.schedule{
+.yellow_2{
     position: absolute;
+    top: 65px;
+    left: 0.1162109375px;
+    width: 100%;
+    height: 1px;
+    background:yellow 0% 0% no-repeat padding-box;
+    background-size: cover;
+    z-index: -1;
+    
+}
+.schedule{
+    position: relative;
     top: 3835px;
-left: 146px;
-width: 982px;
-height: 230px;
+    margin-left: 140px;
+    width: 982px;
+    height: 230px;
+    z-index: 2;
 }
 
 .offer{
-    position: absolute;
-    top: 4057px;
-    left: 138px;
+    position: relative;
+    top: 3800px;
+    margin-left: 140px;
     width: 210px;
     height: 30px;
     text-align: left;
@@ -217,12 +311,13 @@ height: 230px;
 
 .container_2{
     position: relative;
-    top: 2860px;
+    top: 3830px;
     margin-left: 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 15px;
+    max-width: 100%;
 }
 .arrow{
     margin-left: 15px;
@@ -240,9 +335,9 @@ height: 230px;
 }
 
 .plan{
-    position: absolute;
-    top: 4273px;
-    left: 138px;
+    position: relative;
+    top: 3860px;
+    margin-left: 140px;
     width: 180px;
     height: 30px;
     text-align: left;
@@ -254,13 +349,15 @@ height: 230px;
 
 .container_3{
     position: relative;
-    top: 2940px;
+    top: 3890px;
     margin-left: 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-bottom: 15px;
     flex-wrap: wrap;
+    width: 1525px;
+    max-width: 100%;
 }
 
 .mid_box{
@@ -272,12 +369,13 @@ height: 230px;
     border-radius: 15px;
     opacity: 1;
 }
+/*yellow2ここまで*/
 
 /*エントリー・お問い合わせフォーム*/
 .entry{
     position: absolute;
     top: 4722px;
-    left: 146px;
+    margin-left: 140px;
     width: 768px;
     height: 48px;
     text-align: left;
@@ -287,9 +385,9 @@ height: 230px;
 }
 
 form{
-    position: absolute;
-    top: 4846px;
-    left: 138px;
+    position: relative;
+    top: 4100px;
+    margin-left: 240px;
     width: 479px;
     height: 124px;
     font-family: "Hiragino Sans";
@@ -391,3 +489,64 @@ form ul{
     font-family: "HiraMinPro-W6-83pv-RKSJ-H";
     margin: 10px;
 }
+
+/*エントリー・お問い合わせフォームここまで*/
+
+.over{
+    z-index: 3;
+	position: relative;
+	width: 100%;
+	height: 12px;
+	top: -1px;
+	left: 0;
+    border-style: none;
+
+  }
+
+  .blue_triangle{
+    border-collapse:collapse;
+    border-width: 150px 50vw 0 50vw;
+    border-style: solid;
+    border-color:  #3F82AB  transparent #D78AA5 ;
+   
+    border-bottom: transparent;
+  }
+
+  .over_y{
+    z-index: 3;
+	position: relative;
+	width: 100%;
+	height: 12px;
+	top: -1px;
+	left: 0;
+    border-style: none;
+
+  }
+
+  .yellow_triangle{
+    border-collapse:collapse;
+    border-width: 150px 50vw 0 50vw;
+    border-style: solid;
+    border-color: yellow   transparent #3F82AB ;
+    border-bottom: transparent;
+  }
+
+
+  .over_red{
+    z-index: 3;
+	position: relative;
+	width: 100%;
+	height: 12px;
+	top: 3780px;
+	left: 0;
+    border-style: none;
+
+  }
+
+  .red_triangle{
+    border-collapse:collapse;
+    border-width: 150px 50vw 0 50vw;
+    border-style: solid;
+    border-color: #D78AA5   transparent yellow ;
+    border-bottom: transparent;
+  }
