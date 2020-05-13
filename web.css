@@ -125,7 +125,7 @@ p{
 }
 .container{
     position: relative;
-    top: 143px;
+    top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -481,6 +481,7 @@ form ul{
     background: #000000 0% 0% no-repeat padding-box;
     border-radius: 41px;
     opacity: 1;
+    margin-bottom: 250px;
 }
 
 .check h2{
