@@ -318,5 +318,18 @@ form{
     left: 138px;
     width: 479px;
     height: 124px;
-
+    font-family: "Hiragino Sans";
+    font-size: 24px;
 }
+
+form dl dt {
+    width: 200px;
+    padding: 10px 0;
+    float: left;
+    clear: both;
+  }
+
+  form dl dd{
+      width: 700px;
+      padding: 10px 0;
+  }
