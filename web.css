@@ -2,7 +2,21 @@
 
 body{
     font-family:"Hiragino Sans";
-    background-color: green;}
+    background-color: yellow;
+}
+
+h1{
+    font-family: "CP_Revenge";  
+    font-size: 48px/55px;
+}
+
+h2{
+    font-family: "CP_Revenge";  
+}
+
+h3{
+    font-family: "CP_Revenge";  
+}
 
 p{
     font: W4 20px/34px Hiragino Sans;
@@ -33,14 +47,46 @@ p{
 
 .date ul li h1{
     font-family: "CP_Revenge";  
+  
+    margin: 0;
     letter-spacing: 0px;
 }
 
+/*blue*/
+.container{
+    position: relative;
+    top: 944px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
 
+.about_design{
+    width: 480px;
+    height: 260px;
+    background: #D1D1D2 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+}
+
+.discription_1{
+    margin-left: 20px;
+    width: 480px;
+    height: 260px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+/*
 .discription_1{
     position: absolute;
     top: 1127px;
-    left: 675px;
+
     width: 441px;
     height: 275px;
     text-align: left;
@@ -52,14 +98,14 @@ p{
 .about_design{
     position: absolute;
     top: 1127px;
-    left: 146px;
+    
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
 }
-
+*/
 .box h1{
     margin-top: 25px;
     margin-left: 50px;
@@ -70,10 +116,8 @@ p{
     margin-top: 130px;
 }
 
+
 .medical_field{
-    position: absolute;
-    top: 1406px;
-    left: 146px;
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -82,9 +126,7 @@ p{
 }
 
 .energy_field{
-    position: absolute;
-    top: 1406px;
-    left: 646px;
+    margin-left: 20px;
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -93,9 +135,7 @@ p{
 }
 
 .industry_field{
-    position: absolute;
-    top: 1686px;
-    left: 146px;
+
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -104,9 +144,7 @@ p{
 }
 
 .life_support_field{
-    position: absolute;
-    top: 1686px;
-    left: 646px;
+    margin-left: 20px;
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -115,9 +153,7 @@ p{
 }
 
 .discription_2{
-    position: absolute;
-    top: 2109px;
-    left: 164px;
+
     width: 441px;
     height: 117px;
     text-align: left;
@@ -128,9 +164,7 @@ p{
 }
 
 .vision{
-    position: absolute;
-    top: 1966px;
-    left: 646px;
+    margin-left: 20px;
     width: 480px;
     height: 260px;
     background: #D1D1D2 0% 0% no-repeat padding-box;
@@ -138,6 +172,8 @@ p{
     opacity: 1;
 }
 
+/*blueここまで*/
+/*redここから*/
 .red{
 
 }
@@ -158,10 +194,120 @@ p{
     height: 390px;
 }
 
+.pic_1{
+    width: 984px;
+    height: 337px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
 .ray_relation{
     position: absolute;
     top: 3084px;
     left: 145px;
     width: 988px;
     height: 600px;
+}
+
+.pic_2{
+    width: 988px;
+    height: 545px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+/*redここまで*/
+
+.schedule{
+    position: absolute;
+    top: 3835px;
+left: 146px;
+width: 982px;
+height: 230px;
+}
+
+.offer{
+    position: absolute;
+    top: 4057px;
+    left: 138px;
+    width: 210px;
+    height: 30px;
+    text-align: left;
+    font: Regular 30px/20px CP_Revenge;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.container_2{
+    position: relative;
+    top: 2860px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.arrow{
+    margin-left: 15px;
+    width: 22px;
+    height: 26px;
+}
+
+.small_box{
+    margin-left: 15px;
+    width: 153px;
+    height: 124px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.plan{
+    position: absolute;
+    top: 4273px;
+    left: 138px;
+    width: 180px;
+    height: 30px;
+    text-align: left;
+    font: Regular 30px/20px CP_Revenge;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.container_3{
+    position: relative;
+    top: 2940px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.mid_box{
+    margin-left: 32px;
+    margin-bottom: 10px;
+    width: 479px;
+    height: 124px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+/*エントリー・お問い合わせフォーム*/
+.entry{
+    position: absolute;
+    top: 4722px;
+    left: 146px;
+    width: 768px;
+    height: 48px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
 }
