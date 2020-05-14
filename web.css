@@ -3,6 +3,11 @@
 .sp { display: none !important; }
 }
 
+@font-face {
+    font-family: 'CP_Revenge';
+    src: url('cprevenge_tte/CP_Revenge.ttf') format('truetype');
+  }
+
 body{
     font-family:"Hiragino Sans";
     background-color: yellow;
