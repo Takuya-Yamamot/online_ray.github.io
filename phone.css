@@ -427,6 +427,10 @@ opacity: 1;
     opacity: 1;
 }
 
+.offer h2{
+    font-size: 20px;
+}
+
 .container_2{
     position: relative;
     top: 90px;
@@ -445,4 +449,40 @@ opacity: 1;
     border-radius: 15px;
     opacity: 1;
 
+}
+
+.plan{
+    position: relative;
+    top:160px;
+    margin-left: 28px;
+    width: 317px;
+    height: 101px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.plan h2{
+    font-size: 20px;
+}
+
+.container_3{
+    position: relative;
+    top: 80px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.mid_box{
+    width: 317px;
+height: 124px;
+margin-top: 16px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 15px;
+opacity: 1;
 }
