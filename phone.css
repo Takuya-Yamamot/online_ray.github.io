@@ -35,6 +35,45 @@ p{
     font-size: 20px;
 }
 
+/*PNG*/
+.comeup_phone{
+    position: absolute;
+    top:15px;
+}
+
+.change_phone{
+    position: absolute;
+    top: 165px;
+    left:8px;
+}
+
+.run_phone{
+    position: absolute;
+    top:367px;
+    left:29px;
+}
+
+.camera_phone{
+    position: absolute;
+    top:243px;
+    left:264px;
+}
+
+.ship_phone{
+    position: absolute;
+    top:21px;
+    left:230px;
+}
+
+.pc_phone{
+    position: absolute;
+    top:243px;
+    left:-10px;
+}
+
+
+/*PNG fin*/
+
 .blue{
     position: absolute;
     top: 713px;
@@ -92,7 +131,7 @@ p{
 
   }
 
-  .blue_triangle{
+.blue_triangle{
     border-collapse:collapse;
     border-width: 150px 50vw 0 50vw;
     border-style: solid;
@@ -101,9 +140,9 @@ p{
     border-bottom: transparent;
   }
 
-  .yellow_2{
+.yellow_2{
 
-  }
+}
 
 .over_red{
     z-index:0;
@@ -115,7 +154,7 @@ p{
     border-style: none;
   }
 
-  .red_triangle{
+.red_triangle{
     border-collapse:collapse;
     border-width: 150px 50vw 0 53vw;
     border-style: solid;
@@ -123,7 +162,7 @@ p{
     border-bottom: transparent;
   }
 
-  .yellow_2{
+.yellow_2{
     position: absolute;
     top: 2350px;
     left: 0.1162109375px;
@@ -134,22 +173,22 @@ p{
     z-index: -1;
     
 }
-  .enjoy{
+.enjoy{
     writing-mode: vertical-rl;
     margin: auto;
-    top: 70px;
+    margin-top: 70px;
     z-index: 2;
   }
 
-  .enjoy h1{
-    font-size: 70px;
+.enjoy h1{
+    font-size: 60px;
     color: #238F7A;
 }
 
 .setumei{
     position: relative;
     margin: auto;
-  margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
 }
 
