@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1050px){
     .pc { display: none !important;}
     .sp { display: block !important;}
 }
@@ -132,7 +132,7 @@ p{
   .enjoy{
     writing-mode: vertical-rl;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 70px;
     z-index: 2;
   }
 
@@ -144,6 +144,7 @@ p{
 .setumei{
     position: relative;
     margin:auto;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -151,6 +152,9 @@ p{
     color: #238F7A;
 }
 
+.setumei p{
+    font-size: 16px;
+}
 /*Yellowここまで*/
 .date{
     position: relative;
@@ -433,7 +437,7 @@ opacity: 1;
 
 .container_2{
     position: relative;
-    top: 90px;
+    top: 95px;
     margin-left: 50px;
     display: flex;
     justify-content: center;
@@ -453,7 +457,7 @@ opacity: 1;
 
 .plan{
     position: relative;
-    top:160px;
+    top:110px;
     margin-left: 28px;
     width: 317px;
     height: 101px;
@@ -469,8 +473,10 @@ opacity: 1;
 
 .container_3{
     position: relative;
-    top: 80px;
+    top: 30px;
+    padding: 0;
     margin-left: 50px;
+    margin-right: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -480,9 +486,142 @@ opacity: 1;
 
 .mid_box{
     width: 317px;
-height: 124px;
-margin-top: 16px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 15px;
-opacity: 1;
+    height: 124px;
+    margin-top: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.entry{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    width: 350px;
+    height: 75px;
+    text-align: left;
+    font: Regular 30px/45px CP_Revenge;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+form{
+    position: relative;
+    top: 100px;
+    margin-left: 35px;
+    width: 350px;
+    height: 124px;
+    font-family: "Hiragino Sans";
+    font-size: 18px;
+    max-width: 100%;
+}
+
+form dl{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+form dl dt {
+    width: 200px;
+    padding: 10px 0;
+    float: inherit;
+    clear: both;
+    margin-right: 95px;
+    max-width: 100%;
+  }
+
+  form dl dd{
+    width: 350px;
+    margin: 0px;
+    font-size: 14px;
+    max-width: 100%;
+}
+
+form .name{
+    width: 117px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+form .age{
+    width: 129px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+form .tel{
+    width: 74px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+form .email{
+    width: 309px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+form .school{
+    width: 309px;
+    height: 29px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+form .message{
+    width: 309px;
+    height: 104px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+input[type=radio] {
+    width: 28px;
+    height: 17px;
+    vertical-align: text-bottom;
+}
+
+form ul{
+    list-style: none;
+}
+
+.info{
+    position: relative;
+    top: 10px;
+    margin-left: -32px;
+    width: 350px;
+    max-width: 100%;
+}
+
+.check{
+    position: relative;
+    top:5px;
+    margin-left: 30px;
+    width: 263px;
+    height: 53px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    opacity: 1;
+    margin-bottom: 196px;
+}
+
+.check h2{
+    font-size: 22px;
+    color: white;
+    font-family: "HiraMinPro-W6-83pv-RKSJ-H";
+    margin: 10px;
 }
