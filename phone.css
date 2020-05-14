@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1050px){
+@media only screen and (max-width: 1080px){
     .pc { display: none !important;}
     .sp { display: block !important;}
 }
@@ -56,13 +56,13 @@ p{
 .camera_phone{
     position: absolute;
     top:243px;
-    left:264px;
+    right:20px;
 }
 
 .ship_phone{
     position: absolute;
     top:21px;
-    left:230px;
+    right:20px;
 }
 
 .pc_phone{
