@@ -36,6 +36,7 @@
 <div class="camera pc">
   <img src="png/camera.png" alt="">
 </div>
+<!--
 <div class="enjoy_sometimes pc">
   <img src="enjoy_sometimes" alt="">
 </div>
@@ -45,6 +46,7 @@
 <div class="go_sometimes pc">
   <img src="png/go_sometimes.png" alt="">
 </div>
+-->
 
 <div class="comeup_phone sp">
   <img src="png/comeup_phone.png" alt="">
@@ -327,7 +329,7 @@
           <li><input type="radio" name="contact" value="male">個人情報保護方針に同意します</li>
         </ul>
     </div>
-      <button type="submit" class="check">
+      <button onclick="check()" type="submit" class="check">
         <h2>確認＞</h2>
       </button>
     </form>
@@ -337,6 +339,18 @@
 
 
 </div>
+<script>
+  function check(){
+    var result = confirm('確認しますか？');
+    if( result ==  true) {
+      console.log('次に進みます');
+    }
+    else {
+      console.log('キャンセルしました');
+      return　false;
+    }
+  }
+</script>
 </body>
 </html>
 
