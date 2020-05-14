@@ -132,7 +132,7 @@ p{
   .enjoy{
     writing-mode: vertical-rl;
     margin: auto;
-    margin-top: 70px;
+    top: 70px;
     z-index: 2;
   }
 
@@ -143,8 +143,8 @@ p{
 
 .setumei{
     position: relative;
-    margin:auto;
-    margin-top: 100px;
+    margin: auto;
+  margin-top: 100px;
     text-align: center;
 }
 
