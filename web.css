@@ -10,7 +10,7 @@
 
 body{
     font-family:"Hiragino Sans";
-    background-color: yellow;
+    background-color: #FFE425;
     z-index: 0;
     margin: 0;
     padding: 0;
@@ -61,6 +61,42 @@ p{
     position: absolute;
     top:70px;
     left:218px;
+}
+
+.mtg{
+    position: absolute;
+    top:190px;
+    left:50px;
+}
+
+.think{
+    position: absolute;
+    top:279px;
+    left:810px;
+}
+
+.camera{
+    position: absolute;
+    top:519px;
+    left:1080px;
+}
+
+.ship{
+    position: absolute;
+    top:11px;
+    left:970px;
+}
+
+.work{
+    position: absolute;
+    top:650px;
+    left:800px;
+}
+
+.run{
+    position: absolute;
+    top:590px;
+    left:590px;
 }
 
 .enjoy{
@@ -258,6 +294,12 @@ p{
     
 }
 
+.sofa{
+    position: absolute;
+    top:80px;
+    left:980px;
+}
+
 .about{
     position: relative;
     top: 135px;
@@ -296,7 +338,8 @@ p{
 
 .pic_2{
     width: 988px;
-    height: 545px;
+    height:437px;
+    /*height: 545px; *//*こちらが正しいが修正のため*/
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -311,11 +354,18 @@ p{
     left: 0.1162109375px;
     width: 100%;
     height: 1px;
-    background:yellow 0% 0% no-repeat padding-box;
+    background:#FFE425 0% 0% no-repeat padding-box;
     background-size: cover;
     z-index: -1;
     
 }
+
+.flight{
+    position: absolute;
+    top:3900px;
+    left: 992px;
+}
+
 .schedule{
     position: relative;
     top: 3835px;
@@ -565,7 +615,7 @@ form ul{
     border-collapse:collapse;
     border-width: 150px 50vw 0 50vw;
     border-style: solid;
-    border-color: yellow   transparent #3F82AB ;
+    border-color: #FFE425   transparent #3F82AB ;
     border-bottom: transparent;
   }
 
@@ -585,6 +635,6 @@ form ul{
     border-collapse:collapse;
     border-width: 150px 50vw 0 50vw;
     border-style: solid;
-    border-color: #D78AA5   transparent yellow ;
+    border-color: #D78AA5   transparent #FFE425 ;
     border-bottom: transparent;
   }
