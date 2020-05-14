@@ -34,7 +34,7 @@ p{
     top: 713px;
     left: 0.1162109375px;
     width: 100%;
-    height: 870px;
+    height: 990px;
     background: #3F82AB 0% 0% no-repeat padding-box;
     opacity: 1;
     z-index: -1;
@@ -62,7 +62,7 @@ p{
 
   .red{
     position: absolute;
-    top: 1573px;
+    top: 1703px;
     left: 0.1162109375px;
     width: 100%;
     height: 870px;
@@ -76,7 +76,7 @@ p{
 }
 
 .over{
-    z-index: 3;
+    z-index: -2;
 	position: relative;
     max-width: 100%;
 	height: 12px;
@@ -208,15 +208,18 @@ p{
     width: 304px;
     height: 190px;
     text-align: left;
-    font: W4 16px/24px Hiragino Sans;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 
+.discription_1 p{
+    font-size: 16px;
+}
+
 .about_design{
     position: relative;
-    top: 300px;
+    top: 240px;
     margin: auto;
     width: 315px;
     height: 171px;
@@ -238,7 +241,7 @@ p{
 
 .container{
     position: relative;
-    top: 100px;
+    top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -293,4 +296,95 @@ p{
     background: #D1D1D2 0% 0% no-repeat padding-box;
     border-radius: 14px;
     opacity: 1;
+}
+
+.discription_2{
+    position: relative;
+    top:50px;
+    margin: auto;
+    width: 286px;
+height: 75px;
+text-align: left;
+font: W4 14px/24px Hiragino Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+z-index: 4;
+}
+
+.discription_2 p{
+    font-size: 12px;
+}
+
+.vision{
+    position: relative;
+    margin: auto;
+    width: 315px;
+    top:25px;
+height: 171px;
+background: #D1D1D2 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
+
+.vision p{
+    visibility: hidden;
+}
+
+.vision h1{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 29px;
+}
+
+.about{
+    position: relative;
+    top:100px;
+    margin-left: 32px;
+    width: 323px;
+height: 64px;
+text-align: left;
+font: Regular 30px/34px CP_Revenge;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.career_design{
+    position: relative;
+    top:270px;
+    margin: auto;
+    width: 375px;
+    height: 79px;
+    background: #E8BECD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.career_design h2{
+    text-align: center;
+    padding-top: 28px;
+}
+
+.career_design p{
+    visibility: hidden;
+}
+
+.ray_relation{
+    position: relative;
+    top:270px;
+    margin: auto;
+    width: 375px;
+    height: 79px;
+    background: #E8BECD 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.ray_relation h2{
+    text-align: center;
+    padding-top: 28px;
+}
+
+.ray_relation p{
+    visibility: hidden;
 }
