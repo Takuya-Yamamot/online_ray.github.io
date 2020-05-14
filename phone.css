@@ -9,7 +9,7 @@
   }
 
 body{
-    background-color: yellow;
+    background-color: #FFE425;
 }
 
 .wrap {
@@ -62,7 +62,7 @@ p{
     border-collapse:collapse;
     border-width: 150px 50vw 0 50vw;
     border-style: solid;
-    border-color: yellow   transparent #3F82AB ;
+    border-color: #FFE425   transparent #3F82AB ;
     border-bottom: transparent;
   }
 
@@ -119,7 +119,7 @@ p{
     border-collapse:collapse;
     border-width: 150px 50vw 0 53vw;
     border-style: solid;
-    border-color: #D78AA5   transparent yellow ;
+    border-color: #D78AA5   transparent #FFE425 ;
     border-bottom: transparent;
   }
 
@@ -129,7 +129,7 @@ p{
     left: 0.1162109375px;
     width: 100%;
     height: 500px;
-    background:yellow 0% 0% no-repeat padding-box;
+    background:#FFE425 0% 0% no-repeat padding-box;
     background-size: cover;
     z-index: -1;
     
